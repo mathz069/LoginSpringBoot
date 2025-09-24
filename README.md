@@ -146,6 +146,20 @@ Conta no MongoDB Atlas
 
 
 
+\### Configuração do MongoDB Atlas (segura)
+
+
+
+1\. Crie o arquivo `src/main/resources/application.properties` copiando do `application-example.properties`
+
+2\. Substitua `<username>`, `<password>` e `<dbname>` OU defina a variável de ambiente:
+
+
+
+&nbsp;  ```bash
+
+&nbsp;  export MONGODB\_URI="mongodb+srv://<username>:<password>@<cluster>/<dbname>?retryWrites=true\&w=majority"
+
 
 
 Acesse no navegador:

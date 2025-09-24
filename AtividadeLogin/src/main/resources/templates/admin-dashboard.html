@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard Admin</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+    <nav class="main-nav">
+        <a th:href="@{/home}">Home</a>
+        <a th:href="@{/logout}">Sair</a>
+    </nav>
+    <div class="container">
+        <h2>Olá, <span th:text="${name}">Admin</span>!</h2>
+        <p>Bem-vindo ao dashboard do administrador.</p>
+    </div>
+</body>
+</html>

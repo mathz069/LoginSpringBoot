@@ -168,7 +168,7 @@ Usuário Admin Inicial
 
 
 
-Email: admin@dominio.com
+Email: admin@teste.com
 
 
 
